@@ -33,5 +33,14 @@ module RpsApp
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+
+    # Rock-Paper-Scissors rule set.
+    # If unset, the default rule set is used.
+    # config.rps_rules = {
+    #   'hammer': ['rock']
+    # }
+
+    config.curb_api = 'https://5eddt4q9dk.execute-api.us-east-1.amazonaws.com/rps-stage/'
   end
 end
