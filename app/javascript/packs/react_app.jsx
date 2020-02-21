@@ -43,8 +43,8 @@ function Jumbo(props) {
         using their hands and no tools. The idea is to make shapes with an outstretched
         hand where each shape will have a certain degree of power and will lead to an outcome.
       </p>
-      <ButtonGroup aria-label="Basic example">
-        <ThrowButton {...buttonProps} variant="secondary" throwtype="rock"></ThrowButton>
+      <ButtonGroup aria-label="Choose your hand">
+        <ThrowButton {...buttonProps} throwtype="rock"></ThrowButton>
         <ThrowButton {...buttonProps} throwtype="paper"></ThrowButton>
         <ThrowButton {...buttonProps} throwtype="scissors"></ThrowButton>
       </ButtonGroup>
