@@ -37,9 +37,13 @@ module RpsApp
 
     # Rock-Paper-Scissors rule set.
     # If unset, the default rule set is used.
-    # config.rps_rules = {
-    #   'hammer': ['rock']
-    # }
+    config.rps_rules = {
+      'rock' => ['lizard', 'scissors'],
+      'paper' => ['rock', 'spock'],
+      'scissors' => ['paper', 'lizard'],
+      'lizard' => ['spock', 'paper'],
+      'spock' => ['scissors', 'rock']
+    }
 
     config.curb_api = 'https://5eddt4q9dk.execute-api.us-east-1.amazonaws.com/rps-stage/'
   end

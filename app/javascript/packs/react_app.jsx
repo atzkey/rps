@@ -37,9 +37,9 @@ function Jumbo(props) {
   }
   return (
     <Jumbotron>
-      <h1>Rock - Paper - Scissors</h1>
+      <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
       <p>
-        Rock Paper Scissors is a zero sum game that is usually played by two people
+        Rock Paper Scissors Lizard Spock is a zero sum game that is usually played by two people
         using their hands and no tools. The idea is to make shapes with an outstretched
         hand where each shape will have a certain degree of power and will lead to an outcome.
       </p>
@@ -47,6 +47,8 @@ function Jumbo(props) {
         <ThrowButton {...buttonProps} throwtype="rock"></ThrowButton>
         <ThrowButton {...buttonProps} throwtype="paper"></ThrowButton>
         <ThrowButton {...buttonProps} throwtype="scissors"></ThrowButton>
+        <ThrowButton {...buttonProps} throwtype="lizard"></ThrowButton>
+        <ThrowButton {...buttonProps} throwtype="spock"></ThrowButton>
       </ButtonGroup>
       <ResultsModal {...modalState} onHide={() => setModalState(false)} />
     </Jumbotron>
