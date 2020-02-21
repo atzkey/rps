@@ -44,9 +44,9 @@ function Jumbo(props) {
         hand where each shape will have a certain degree of power and will lead to an outcome.
       </p>
       <ButtonGroup aria-label="Basic example">
-        <ThrowButton {...buttonProps} variant="secondary" throwtype="rock">Rock</ThrowButton>
-        <ThrowButton {...buttonProps} throwtype="paper">Paper</ThrowButton>
-        <ThrowButton {...buttonProps} throwtype="scissors">Scissors</ThrowButton>
+        <ThrowButton {...buttonProps} variant="secondary" throwtype="rock"></ThrowButton>
+        <ThrowButton {...buttonProps} throwtype="paper"></ThrowButton>
+        <ThrowButton {...buttonProps} throwtype="scissors"></ThrowButton>
       </ButtonGroup>
       <ResultsModal {...modalState} onHide={() => setModalState(false)} />
     </Jumbotron>
