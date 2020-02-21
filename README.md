@@ -11,6 +11,7 @@ $ git clone https://github.com/atzkey/rps.git
 ```
 ### Preparing the environment
 ```
+$ cd rps
 $ bundle install
 ```
 
